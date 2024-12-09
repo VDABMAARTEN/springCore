@@ -3,6 +3,7 @@ package be.vdab.welkom;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class WelkomApplication {
 
         public static void main(String[] args) {
@@ -10,5 +11,3 @@ public class WelkomApplication {
         }
 
     }
-
-
