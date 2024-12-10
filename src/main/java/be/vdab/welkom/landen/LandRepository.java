@@ -11,7 +11,7 @@ import java.util.List;
 public class LandRepository {
   public List<Land> findAll(){
       try(var regels = Files.lines(Path.of("data/landen.csv"))){
-          return regels.map(regels -> regels.split(","))
+          return regels.map(regel -> regel.split(","))
                   .map(regelOnderdelen -> new Land(regelOnderdelen[0], regelOnderdelen[1], Integer.parseInt(regelOnderdelen[2]))).toList();
       }
       catch(IOException | ArrayIndexOutOfBoundsException | NumberFormatException ex){
