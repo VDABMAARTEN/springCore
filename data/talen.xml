@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<talen>
+	<taal code="nl" naam="Nederlands"/>
+	<taal code="fr" naam="Frans"/>
+	<taal code="de" naam="Duits"/>
+	<taal code="es" naam="Spaans"/>
+	<taal code="ar" naam="Arabisch"/>
+	<taal code="fi" naam="Fins"/>
+</talen>
